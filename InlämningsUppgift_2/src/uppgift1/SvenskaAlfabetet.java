@@ -25,29 +25,67 @@ public class SvenskaAlfabetet {
 		int konsonant = 0;
 
 		for (int j = 0; j < mychar.length; j++) {
-			if (Character.toLowerCase(mychar[j]) == 'a' || Character.toLowerCase(mychar[j]) == 'e'
-					|| Character.toLowerCase(mychar[j]) == 'i' || Character.toLowerCase(mychar[j]) == 'o'
-					|| Character.toLowerCase(mychar[j]) == 'u' || Character.toLowerCase(mychar[j]) == 'y'
-					|| Character.toLowerCase(mychar[j]) == 'å' || Character.toLowerCase(mychar[j]) == 'ä'
-					|| Character.toLowerCase(mychar[j]) == 'ö') {
-
-				vocal++;
-
+			
+			switch (mychar[j]) {
+				case 'a':
+				case 'A':
+				case 'e':
+				case 'E':
+				case 'ä':
+				case 'Ä':
+				case 'ö':
+				case 'Ö':
+				case 'å':
+				case 'Å':
+				case 'y':
+				case 'Y':
+				case 'i':
+				case 'I':
+				case 'o':
+				case 'O':
+				case 'u':
+				case 'U': vocal++ ; break;
+				
+				case 'b':
+				case 'B':
+				case 'c':
+				case 'C':
+				case 'D':
+				case 'd':
+				case 'f':
+				case 'F':
+				case 'j':
+				case 'J':
+				case 'k':
+				case 'K':
+				case 'L':
+				case 'l':
+				case 'M':
+				case 'm':
+				case 'n':
+				case 'N':
+				case 'r':
+				case 'R':
+				case 'p':
+				case 'P':
+				case 'q':
+				case 'Q':
+				case 's':
+				case 'S':
+				case 't':
+				case 'T':
+				case 'x':
+				case 'X':
+				case 'z':
+				case 'Z':
+				case 'h':
+				case 'H':
+				case 'v':
+				case 'V':konsonant++;
+					
+				
 			}
-
-			if (Character.toLowerCase(mychar[j]) == 'b' || Character.toLowerCase(mychar[j]) == 'c'
-					|| Character.toLowerCase(mychar[j]) == 'd' || Character.toLowerCase(mychar[j]) == 'f'
-					|| Character.toLowerCase(mychar[j]) == 'g' || Character.toLowerCase(mychar[j]) == 'h'
-					|| Character.toLowerCase(mychar[j]) == 'j' || Character.toLowerCase(mychar[j]) == 'k'
-					|| Character.toLowerCase(mychar[j]) == 'l' || Character.toLowerCase(mychar[j]) == 'm'
-					|| Character.toLowerCase(mychar[j]) == 'n' || Character.toLowerCase(mychar[j]) == 'p'
-					|| Character.toLowerCase(mychar[j]) == 'q' || Character.toLowerCase(mychar[j]) == 'r'
-					|| Character.toLowerCase(mychar[j]) == 's' || Character.toLowerCase(mychar[j]) == 't'
-					|| Character.toLowerCase(mychar[j]) == 'v' || Character.toLowerCase(mychar[j]) == 'x'
-					|| Character.toLowerCase(mychar[j]) == 'z') {
-				konsonant++;
-
-			}
+			
 
 		}
 		System.out.println("contains...");
