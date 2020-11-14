@@ -1,0 +1,2 @@
+module inlämningsUppgift_2 {
+}
