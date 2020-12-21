@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="application.Customer" id="Customer0">
+    <void property="accountBalance">
+     <double>1000.0</double>
+    </void>
+    <void property="accountNumber">
+     <string>500</string>
+    </void>
+    <void property="latestTransaction">
+     <string>Cash Withdrawal: 1000.0, datestamp:2020-12-21 03:07:20</string>
+    </void>
+    <void property="openingDate">
+     <string>2020-12-21 02:55:48</string>
+    </void>
+    <void property="password">
+     <string>das</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="application.Customer">
+    <void property="accountBalance">
+     <double>0.0</double>
+    </void>
+    <void property="accountNumber">
+     <string>345</string>
+    </void>
+    <void property="latestTransaction">
+     <string>none</string>
+    </void>
+    <void property="openingDate">
+     <string>2020-12-21 02:56:04</string>
+    </void>
+    <void property="password">
+     <string>mos</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Customer0"/>
+  </void>
+ </object>
+</java>
