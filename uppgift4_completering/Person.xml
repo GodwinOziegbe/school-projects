@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="uppgift4.Person">
+    <void property="age">
+     <string>34</string>
+    </void>
+    <void property="firstName">
+     <string>Martin</string>
+    </void>
+    <void property="lastName">
+     <string>Bertil</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="uppgift4.Person">
+    <void property="age">
+     <string>43</string>
+    </void>
+    <void property="firstName">
+     <string>Kenny</string>
+    </void>
+    <void property="lastName">
+     <string>Benny</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="uppgift4.Person">
+    <void property="age">
+     <string>54</string>
+    </void>
+    <void property="firstName">
+     <string>Nikolas</string>
+    </void>
+    <void property="lastName">
+     <string>Bengt</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="uppgift4.Person">
+    <void property="age">
+     <string>29</string>
+    </void>
+    <void property="firstName">
+     <string>Tomas</string>
+    </void>
+    <void property="lastName">
+     <string>Martin</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="uppgift4.Person">
+    <void property="firstName">
+     <string>34</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
