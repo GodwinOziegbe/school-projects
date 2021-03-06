@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="application.Sales">
+    <void property="customerId">
+     <string>15</string>
+    </void>
+    <void property="dateOfSales">
+     <string>3 mars 2021 16:35:00</string>
+    </void>
+    <void property="price">
+     <double>2.5</double>
+    </void>
+    <void property="productId">
+     <string>1</string>
+    </void>
+    <void property="productName">
+     <string>sugar</string>
+    </void>
+    <void property="quantity">
+     <int>4</int>
+    </void>
+    <void property="salesId">
+     <string>7962359768</string>
+    </void>
+    <void property="sellerId">
+     <string>25</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

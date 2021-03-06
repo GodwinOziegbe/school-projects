@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="landskidstavling.Skiers">
+    <void property="id">
+     <int>1101</int>
+    </void>
+    <void property="lastCompetitionTime">
+     <string>       00:00.854</string>
+    </void>
+    <void property="name">
+     <string>Karl Nilsson          </string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="landskidstavling.Skiers">
+    <void property="id">
+     <int>1102</int>
+    </void>
+    <void property="lastCompetitionTime">
+     <string>       00:01.366</string>
+    </void>
+    <void property="name">
+     <string>Nils Svensson       </string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="landskidstavling.Skiers">
+    <void property="id">
+     <int>1103</int>
+    </void>
+    <void property="lastCompetitionTime">
+     <string>       00:01.830</string>
+    </void>
+    <void property="name">
+     <string>Anders Pettersson</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="landskidstavling.Skiers">
+    <void property="id">
+     <int>1104</int>
+    </void>
+    <void property="lastCompetitionTime">
+     <string>       00:02.374</string>
+    </void>
+    <void property="name">
+     <string>Joakim Karlsson    </string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="landskidstavling.Skiers">
+    <void property="id">
+     <int>1105</int>
+    </void>
+    <void property="lastCompetitionTime">
+     <string>       00:02.902</string>
+    </void>
+    <void property="name">
+     <string>Fredrik Hakansson</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

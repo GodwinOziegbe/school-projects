@@ -1,0 +1,6 @@
+Sales Record
+ ---------------- 
+Sales Id: 7962359768
+Customer Id:15
+Product's Name: sugar
+Date Of Sales:3 mars 2021 16:35:00
