@@ -4,28 +4,28 @@
   <void method="add">
    <object class="application.Sales">
     <void property="customerId">
-     <string>15</string>
+     <string>1</string>
     </void>
     <void property="dateOfSales">
-     <string>3 mars 2021 16:35:00</string>
+     <string>26 mars 2021 11:55:09</string>
     </void>
     <void property="price">
-     <double>2.5</double>
+     <double>2.7</double>
     </void>
     <void property="productId">
      <string>1</string>
     </void>
     <void property="productName">
-     <string>sugar</string>
+     <string>dfd</string>
     </void>
     <void property="quantity">
-     <int>4</int>
+     <int>54</int>
     </void>
     <void property="salesId">
-     <string>7962359768</string>
+     <string>0507118474</string>
     </void>
     <void property="sellerId">
-     <string>25</string>
+     <string>2</string>
     </void>
    </object>
   </void>

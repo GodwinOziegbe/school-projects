@@ -23,7 +23,7 @@ public class NewCustomer {
 	private TextField customerIdTextField = new TextField();
 	private TextField customerNameTextField = new TextField();
 	private TextField customerAdressTextField = new TextField();
-
+	
 	public NewCustomer() {
 
 	}
